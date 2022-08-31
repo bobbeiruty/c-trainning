@@ -1,0 +1,28 @@
+// Write a program in C that takes minutes as input, and display the total number of hours and minutes. Go to the editor
+// Expected Output :
+// Input minutes: 546
+// 9 Hours, 6 Minutes
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+       
+       printf("enter min: ");
+       int min;
+       scanf("%d",&min);
+       int hour= min/60;
+       int m =  (min %60);
+       
+       
+       
+       
+       
+      
+      
+      printf("%d Hours, %d Minutes.", hour, m);
+      
+    
+    
+    
+}
