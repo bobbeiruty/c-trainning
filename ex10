@@ -1,0 +1,19 @@
+// 10. Write a C program to find the third angle of a triangle if two angles are given. Go to the editor
+// Expected Output :
+// Input two angles of triangle separated by comma : 50,70
+// Third angle of the triangle : 60
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   printf("Input two angles of triangle  : ");
+   
+     int n1,n2;
+     scanf("%d%d",&n1,&n2);
+   int third_angle =( 180-(n1+n2)) ;
+    
+     printf("the third angle is :%d",third_angle);
+     
+     
+}
