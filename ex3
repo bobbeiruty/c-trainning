@@ -1,0 +1,28 @@
+// 3. Write a C program that prints the perimeter of a rectangle to take its height and width as input. Go to the editor
+// Expected Output :
+// Input the height of the Rectangle : 5
+// Input the width of the Rectangle : 7
+// Perimeter of the Rectangle is : 24.000000
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+       printf("enter the hight :");
+       int l ;
+       scanf("%d",&l);
+       printf("enter the width :");
+       int w;
+       
+       
+       
+       scanf("%d",&w);
+       
+      
+      float par = (2*(l+w));
+      printf("%F",par);
+      
+    
+    
+    
+}
