@@ -1,0 +1,22 @@
+// 7. Write a program in C that reads a forename, surname and year of birth and display the names and the year one after another sequentially. Go to the editor
+// Expected Output :
+// Input your firstname: Tom
+// Input your lastname: Davis
+// Input your year of birth: 1982
+// Tom Davis 1982
+#include <stdio.h>
+
+int main()
+{
+   printf("enter your name ");
+       char str[50];
+       scanf("%s",&str);
+        printf("enter your last name ");
+        char str2[50];
+        scanf("%s",&str2);
+        printf("enter your birthday  ");
+        int birth;
+        scanf("%d",&birth);
+         printf("%s %s %d",str,str2,birth);
+      
+}
