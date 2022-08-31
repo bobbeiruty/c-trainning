@@ -1,0 +1,26 @@
+// 4. Write a C program that converts kilometers per hour to miles per hour. Go to the editor
+// Expected Output :
+// Input kilometers per hour: 15
+// 9.320568 miles per hour
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+       printf("enter kilometers per hour: ");
+       int kilo ;
+       scanf("%d",&kilo);
+       
+       
+       
+       
+       
+       
+      
+      float miles = (kilo*0.621371192);
+      printf("%F",miles);
+      
+    
+    
+    
+}
