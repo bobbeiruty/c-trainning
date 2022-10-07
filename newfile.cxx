@@ -1,34 +1,48 @@
-#include <stdio.h>
+ #include<stdio.h>
 
-int main()
-{
-	int n  ;
-	
-		printf ("enter the number ");
-	scanf("%d",&n);
-	
-			
-	if (n==0)
-		return 1 ;
-		int count;
-		
-		
-		while (n!=0){
-		n=n/10;
-			count++;
-		}
-		int sum;
-		int r ;
-		while (n>0){
-			n=n/10;
-			r=n%10;
-			
-			sum= sum+r;
-			
-			
-		}
-		
-		printf("the number is %d",count);
-		printf("the sum is %d",sum);
-
-}
+int main(){
+    int i,sum,max,min;
+   
+    
+    
+    int ara[100];
+    
+     printf("Enter arq nukbers:\n");
+     for(i = 0; i < 100;  i++){
+      scanf("%d", &ara[i]);
+      if (ara[i]>0){
+        
+       continue ;}else{break;}
+        
+        	
+        	
+        
+     }
+     
+   
+    
+    sum=0;
+    max=ara[0];
+    min=ara[0];
+    for(i = 0; i < 100; i++){
+    	    printf("Your  ara numbers are %d\n",ara[i]);
+    
+        sum+=ara[i];
+        if(ara[i] > max){
+            max = ara[i];
+        }
+        if(ara[i] < min){
+            min = ara[i];
+        }
+    }
+    
+    
+    printf("Sum is %d\n",sum);
+   
+    printf("Max number is %d\n",max);
+    printf("Min number is %d\n",min);
+    
+    
+    
+    
+    }
